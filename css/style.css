@@ -9,9 +9,14 @@ body{
     padding-top: 10px;
 }
 #body-nav{
-    background-color: #346065;
+    background-color: #577967;
     padding-left: 40px;
     padding-right: 40px;
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    height: 80px;
+    align-items: center;
    
 
 }
@@ -102,6 +107,7 @@ p{
 
 .column{
     flex: 50%;
+    
 }
 
 .row2{
@@ -119,3 +125,60 @@ p{
     padding-right: 300px;
     padding-bottom: 70px;;
 }
+
+#desktop1{
+    padding-top: 40px;
+    padding-left: 140px;
+    padding-bottom: 40px;
+}
+
+#desktop2{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+#iteration1{
+    padding-left: 120px;
+    padding-top:25px;
+}
+
+#iteration2{
+    padding-top: 25px;
+}
+
+#iteration3{
+    padding-left: 300px;
+    padding-right: 300px;
+    padding-bottom: 25px;
+    padding-top: 45px;
+}
+
+#iteration4{
+    padding-left: 300px;
+    padding-right: 300px;
+    padding-top: 25px;
+    padding-bottom: 20px;
+}
+
+#finalredesign{
+    padding-top: 50px;
+    padding-left: 225px;
+    padding-right: 300px;
+}
+
+#figmaLink{
+    padding-top: 45px;
+    color: black;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: #577967;
+    color: white;
+    height: 120px;
+    align-items: center;
+    padding:40px;
+    
+}
+
