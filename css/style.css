@@ -1,0 +1,121 @@
+
+body{
+    background-color: #FAF9F6;
+}
+
+.navbar-expand-sm{
+    background-color: #FAF9F6;
+    padding-bottom: 60px;
+    padding-top: 10px;
+}
+#body-nav{
+    background-color: #346065;
+    padding-left: 40px;
+    padding-right: 40px;
+   
+
+}
+#nav-body-item{
+    color: white;
+    font-family: 'Lora';font-size: 30px;
+}
+
+.navbar-nav{
+    margin-left: auto;
+    font-family: 'Lora';
+    font-size: 30px;
+    padding-right: 40px;
+}
+logo{
+    padding-left: 40px;
+}
+
+#heroImg{
+    display: inline;
+    padding-left: 350px;
+    padding-right: 300px;
+    padding-bottom: 40px;
+}
+
+#title{
+    font-family: 'Lora';
+    font-size: 40px;
+    padding: 40px;
+}
+
+p{
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 20px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 24px;
+}
+
+#mainHeaders{
+    font-family: 'Lora';
+    font-size: 40px;
+    padding-left: 40px;
+    padding-top: 20px;
+    padding-top: 10px;
+    text-decoration: underline;
+    text-decoration-color: #A2D249;
+}
+
+#secondaryHeaders{
+    font-family: 'Lora';
+    font-size: 32px;
+    padding-left: 40px;
+    padding-top: 30px;
+}
+
+.grid-container{
+    display: grid;
+    padding-left: 120px;
+    padding-right: 120px;
+    grid-template-areas: 
+   "unit1 unit3"
+   "unit2 unit3"
+   "unit2 unit3"
+}
+
+
+#grid-item1{
+    grid-area: unit1;
+}
+
+#grid-item2{
+    grid-area: unit2;
+    padding-right: 90px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 24px;
+    padding-top: 25px;
+    padding-bottom: 20px;
+}
+
+#grid-item3{
+    grid-area: unit3;
+}
+
+.row{
+    display:flex;
+}
+
+.column{
+    flex: 50%;
+}
+
+.row2{
+    display: flex;
+}
+
+.zoey{
+    padding-left: 35px;
+    padding-top: 18px;
+    padding-bottom: 80px;
+}
+
+#sitemap{
+    padding-left: 300px;
+    padding-right: 300px;
+    padding-bottom: 70px;;
+}
